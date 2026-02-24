@@ -1,3 +1,12 @@
+-- =====================================================
+-- Data Cleaning & Preparation
+-- Purpose: Create tables, import raw CSV data, clean records,
+--          perform data type casting, and prepare final dataset
+--          for analytical processing.
+-- Author: Shivratna Waghmode
+-- Project: Retail Sales Analysis
+-- =====================================================
+
 DROP TABLE online_retail;
 
 CREATE TABLE online_retail AS

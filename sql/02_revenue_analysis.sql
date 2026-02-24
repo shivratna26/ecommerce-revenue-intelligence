@@ -1,3 +1,12 @@
+-- =====================================================
+-- Revenue Analysis
+-- Purpose: Analyze revenue performance including monthly trends,
+--          revenue by country, and identification of highest
+--          revenue-generating periods.
+-- Author: Shivratna Waghmode
+-- Project: Retail Sales Analysis
+-- =====================================================
+
 --Monthly revenue trend
 SELECT 
     DATE_TRUNC('month', invoicedate) AS month,
